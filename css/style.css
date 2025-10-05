@@ -56,9 +56,10 @@ ul, .sub-text {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 130px 15%;
     min-height: 250px;
+    flex-wrap: wrap;
 }
 
 .header-text {
@@ -75,7 +76,8 @@ ul, .sub-text {
 }
 
 .header-image {
-    height: 600px;
+    max-width: 64%;
+
 }
 
 
@@ -89,7 +91,6 @@ ul, .sub-text {
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    
 }
 
 .header-button:hover {
@@ -103,7 +104,6 @@ ul, .sub-text {
     align-items: center;
     background-color: #333333;
     padding-top: 5%;
-    
 }
 
 .info-title {
@@ -121,10 +121,10 @@ ul, .sub-text {
 
 .content {
     display: flex;
-    min-width: 90%;
     justify-content: center;
     margin-bottom: 200px;
     gap: 70px;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -134,7 +134,7 @@ ul, .sub-text {
     padding: 10px;
     background-color: #202020;
     padding-bottom: 60px;
-
+    flex-wrap: wrap;
 }
 
 .info-image {
