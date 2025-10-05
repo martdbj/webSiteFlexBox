@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Znamenny+Musical+Notation&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #202020;
+    color: #F9FAF8;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 15%;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB; 
+}
+
+a:hover {
+    color: #69BE28;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #69BE28;;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+ul, .sub-text {
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+
+.header-sub-text {
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 15%;
+    min-height: 250px;
+}
+
+.header-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.h1 {
+    font-weight: bolder;
+    font-size: 115px;
+    color: #69BE28;
+}
+
+.header-image {
+    height: 600px;
+}
+
+
+.header-button {
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    background-color: #333333;
+    padding: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.header-button:hover {
+    background-color: #69BE28;
+    transition-duration: 0.25s;
+}
+
+.web-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+    padding-top: 5%;
+    
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.text-line {
+    display: inline-block; 
+    border-bottom: 4px solid #69BE28;
+    width: 180px; 
+}
+
+.content {
+    display: flex;
+    min-width: 90%;
+    justify-content: center;
+    margin-bottom: 200px;
+    gap: 70px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #202020;
+    padding-bottom: 60px;
+
+}
+
+.info-image {
+    max-width: 350px;
+    max-height: 350px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    background-color: #69BE28;
+    border-radius: 0 40%;
+}
+
+.info-text{
+    margin-top: 16px;
+    font-size: 20px;
+    color: rgb(211, 211, 211); 
+    max-width: 250px;
+}
+
+.info-image-title {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white; 
+    max-width: 250px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    padding: 7%;
+}
+
+.quote-content {
+    max-width: 60%;
+}
+
+.quote-text {
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: bold;
+    font-size: 26px;
+    color: #69BE28;
+}
+
+.call-action-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #69BE28;
+    display: flex;
+    justify-content: center;
+}
+
+.call-action {
+    display: flex;
+    background-color: #202020;
+    justify-content: center;
+    gap: 30%;
+    align-items: center;
+    border-radius: 10px;
+    min-width: 70%;
+    min-height: 150px;
+    padding: 0 4.5%;
+}
+
+
+.call-action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-big {
+    color: #69BE28;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.action-small {
+    color: rgba(255, 255, 255, 0.781);
+}
+
+.action-button {
+    font-family: "Montserrat";
+    color: white;
+    background-color: #333333;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 200;
+    border: none;
+    max-width: 170px;
+    margin-top: 13px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.action-button:hover {
+    background-color: #69BE28;
+    transition-duration: 0.25s;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background: #1F2937;
+}
+
+.footer-text {
+    color: white;
+}
